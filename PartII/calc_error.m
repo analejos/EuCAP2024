@@ -8,6 +8,7 @@ k = (0:1:N-1)
 ph_th = 180.*k.*sin(alpha*pi/180)
 ph_bfic = ph_th./resolution
 ph_code = round(ph_bfic)
+% ph_code = 4.*round(ph_code./4); %-- only for F5288 in Tx
 
 ph_p = ph_code.*resolution;
 error_ph = ph_th - ph_p
