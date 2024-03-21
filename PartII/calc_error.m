@@ -11,5 +11,3 @@ ph_code = round(ph_bfic)
 
 ph_p = ph_code.*resolution;
 error_ph = ph_th - ph_p
-
-(20*pi/180)
